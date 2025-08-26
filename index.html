@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deshi Deals | Home</title>
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- do better job -->
+  </head>
+  <body class="bg-[#F8F8F8]">
+    <header class="hidden xl:h-[85vh]">
+      <!-- Nav Section  -->
+      <nav
+        class="flex justify-center items-center shadow-sm shadow-[#00000040]"
+      >
+        <div class="w-12"><img src="assets/logo.png" alt="" /></div>
+
+        <div>
+          <h1 class="text-3xl text-[#E71580]">
+            Deshi <span class="font-semibold">Deals</span>
+          </h1>
+          <div class="text-xs text-[#797075]">
+            <span>Cheap Price, </span>
+            <span>Best Quality</span>
+          </div>
+        </div>
+      </nav>
+      <!-- Nav Section End -->
+
+      <!-- hero Section Start -->
+
+      <section
+        id="hero"
+        class=" h-full bg-gradient-to-b from-[#FFFFFF] to-[#F6DDEA] flex flex-col relative"
+      >
+        <!-- hero text  -->
+        <div class="flex flex-col justify-center items-center gap-7 mt-[10vh]">
+          <div
+            class="flex flex-col justify-center items-center text-3xl font-bold"
+          >
+            <h1 class="">Purchase TK 200 or above $ get</h1>
+            <h1 class="text-[#E527B2]">20% off</h1>
+          </div>
+
+          <div class="flex justify-center items-center gap-10">
+            <p>Use Promo Code</p>
+            <button class="bg-[#E527B2] py-3 px-11 rounded-lg">SELL200</button>
+          </div>
+        </div>
+
+        <div class="w-full h-full">
+          <!-- mx-auto  2xl:mt-10 -->
+          <img
+            class="max-md:w-[70%] max-2xl:w-[60%] 2xl:w-[50%] xl:absolute xl:left-1/2 xl:-translate-x-1/2 mx-auto"
+            src="assets/hero-bg.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-- hero Section End  -->
+    </header>
+
+    <main class="mt-[100px]">
+      <!-- parent section of Sections and aside  -->
+      <section
+        id="product-container"
+        class="w-11/12 mx-auto grid grid-cols-12 gap-8"
+      >
+        <section id="product-box" class=" min-h-[90vh] col-span-9">
+          <!-- kitchen Secion start  -->
+          <div class="kitechen-section">
+            <!-- kitchen Section heading  -->
+            <div class="my-5">
+              <h1 class="text-3xl font-bold">kitchenware</h1>
+            </div>
+
+            <!-- kitchen-cards start -->
+            <div class="grid grid-cols-3 gap-5">
+              <!-- card 1 -->
+              <div class="kitechen-items">
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="px-10 py-10 bg-[#F3F3F3] m-8">
+                    <img src="assets/kitchen-1.png" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <div>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                    </div>
+                    <h2 class="card-title text-2xl font-bold">
+                      K. Accessories
+                    </h2>
+                    <h3 class="text-xl font-semibold">
+                      <span id="k.Accessories-price">39.00 </span>TK
+                    </h3>
+
+                    <div class="card-actions">
+                      <button
+                        id="k.Accessories-btn"
+                        class="Add-to-Cart btn btn-primary my-5 px-12 bg-pink-600 text-white text-[20px] font-semibold transition-all hover:bg-pink-700 hover:scale-105"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 2 -->
+              <div class="kitechen-items">
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="px-10 py-10 bg-[#F3F3F3] m-8">
+                    <img src="assets/kitchen-2.png" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <div>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                    </div>
+                    <h2 class="card-title text-2xl font-bold">
+                      K. Accessories 2
+                    </h2>
+                    <h3 class="text-xl font-semibold">
+                      <span id="k.Accessories2-price">25.00</span> TK
+                    </h3>
+
+                    <div class="card-actions">
+                      <button
+                        id="k.Accessories2-btn"
+                        class="Add-to-Cart btn btn-primary my-5 px-12 bg-pink-600 text-white text-[20px] font-semibold transition-all hover:bg-pink-700 hover:scale-105"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 3 -->
+              <div class="kitechen-items">
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="px-10 py-10 bg-[#F3F3F3] m-8">
+                    <img
+                      src="assets/kitchen-3.png"
+                      alt="Shoes"
+                      class="rounded-xl"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <div>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                      <i class="fa-solid fa-star text-yellow-400"></i>
+                    </div>
+                    <h2 class="card-title text-2xl font-bold">Home Cooker</h2>
+                    <h3 class="text-xl font-semibold">
+                      <span id="home-cooker-price">49.00 </span>TK
+                    </h3>
+
+                    <div class="card-actions">
+                      <button
+                        id="home-cooker-btn"
+                        class="Add-to-Cart btn btn-primary my-5 px-12 bg-pink-600 text-white text-[20px] font-semibold transition-all hover:bg-pink-700 hover:scale-105"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <aside id="cart-box" class="col-span-3">
+          <!-- cupon Section  -->
+          <section
+            class="bg-[#FFFFFF] rounded-lg flex flex-col items-center gap-2 p-6 pb-11"
+          >
+            <h2 class="text-2xl font-semibold my-1">Have coupon?</h2>
+            <div class="join mx-auto">
+              <input
+                class="pl-4 py-3 rounded-l-xl bg-gray-200"
+                placeholder="Cupon Code"
+              />
+              <button
+                id="coupon-btn"
+                class="join-item rounded-r-2xl bg-pink-600 py-3 px-3 text-white text-xl font-semibold"
+              >
+                Apply
+              </button>
+            </div>
+          </section>
+
+        
+           <section class="bg-[#FFFFFF] mt-20 rounded-lg">
+
+            <!-- cart list Container -->
+             <div id="cart-list"
+              class="min-h-[20vh] px-2 py-5">
+
+              <!-- cart 1 -->
+               <div class="product-cart rounded-lg px-8 flex justify-between bg-[#F3F3F3] mb-5">
+
+                <div class="py-1">
+                  <img src="assets/kitchen-1.png" alt="">
+                </div>
+
+                <div class="flex flex-col justify-center">
+                  <h1 class="product-title text-xl font-semibold">k.Accessoris</h1>
+                  <h3 class="text-[20px]"><span class="product-price">000</span> TK</h3>
+                </div>
+
+
+               </div>
+            
+
+
+
+
+             </div>
+
+
+                <!-- Purchase section  -->
+          <div class="my-16  rounded-xl p-6 border-t-2">
+
+
+            <h3 class="text-xl font-medium">Total price: <span id="total-price">0</span> Tk</h3>
+            <h3 class="text-xl font-medium">Discount Price: <span id="discount-price">0</span> Tk</h3>
+            <h3 class="text-xl font-medium">Final price: <span id="final-price">0</span> Tk</h3>
+
+          </div>
+
+
+          </section>
+
+        </aside>
+
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
